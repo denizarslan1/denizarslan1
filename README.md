@@ -35,7 +35,7 @@ denizarslan1@mainframe:~$ ls ~/projects
 ### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,nextjs,react,c,c++,html,css,git,github,nodejs," />
+  <img src="https://skillicons.dev/icons?i=python,js,nextjs,react,c,html,css,git,github,nodejs," />
 </p>
 
 ---
