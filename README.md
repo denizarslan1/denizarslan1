@@ -28,7 +28,7 @@ denizarslan1@mainframe:~$ ls ~/projects
 📁 IBM-RPG-Game  
 📁 ML-Model-Pipeline  
 📁 Cybersecurity-Audit  
-📁 NetScanLab (NEW 🛰️)
+📁 Laptop-Portfolio-Website (NEW 🛰️)
 
 ---
 
