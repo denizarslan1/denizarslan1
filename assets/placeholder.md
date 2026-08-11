@@ -1,1 +1,104 @@
-## assets will go here
+<svg viewBox="0 0 860 300" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#00FF9C" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#00FF9C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="screenglow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1f18"/>
+      <stop offset="100%" stop-color="#04110c"/>
+    </linearGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="860" height="300" rx="12" fill="#0d1117"/>
+
+  <!-- dot grid background -->
+  <g fill="#1c2530">
+    <circle cx="40" cy="40" r="1.5"/><circle cx="100" cy="40" r="1.5"/><circle cx="160" cy="40" r="1.5"/><circle cx="220" cy="40" r="1.5"/><circle cx="280" cy="40" r="1.5"/><circle cx="340" cy="40" r="1.5"/><circle cx="400" cy="40" r="1.5"/><circle cx="460" cy="40" r="1.5"/><circle cx="520" cy="40" r="1.5"/><circle cx="580" cy="40" r="1.5"/><circle cx="640" cy="40" r="1.5"/><circle cx="700" cy="40" r="1.5"/><circle cx="760" cy="40" r="1.5"/><circle cx="820" cy="40" r="1.5"/>
+    <circle cx="40" cy="100" r="1.5"/><circle cx="100" cy="100" r="1.5"/><circle cx="160" cy="100" r="1.5"/><circle cx="700" cy="100" r="1.5"/><circle cx="760" cy="100" r="1.5"/><circle cx="820" cy="100" r="1.5"/>
+    <circle cx="40" cy="160" r="1.5"/><circle cx="100" cy="160" r="1.5"/><circle cx="760" cy="160" r="1.5"/><circle cx="820" cy="160" r="1.5"/>
+    <circle cx="40" cy="220" r="1.5"/><circle cx="100" cy="220" r="1.5"/><circle cx="160" cy="220" r="1.5"/><circle cx="700" cy="220" r="1.5"/><circle cx="760" cy="220" r="1.5"/><circle cx="820" cy="220" r="1.5"/>
+    <circle cx="40" cy="270" r="1.5"/><circle cx="100" cy="270" r="1.5"/><circle cx="160" cy="270" r="1.5"/><circle cx="220" cy="270" r="1.5"/><circle cx="280" cy="270" r="1.5"/><circle cx="340" cy="270" r="1.5"/><circle cx="400" cy="270" r="1.5"/><circle cx="460" cy="270" r="1.5"/><circle cx="520" cy="270" r="1.5"/><circle cx="580" cy="270" r="1.5"/><circle cx="640" cy="270" r="1.5"/><circle cx="700" cy="270" r="1.5"/><circle cx="760" cy="270" r="1.5"/><circle cx="820" cy="270" r="1.5"/>
+  </g>
+
+  <!-- glow behind laptop -->
+  <ellipse cx="230" cy="160" rx="220" ry="150" fill="url(#glow)"/>
+
+  <!-- ISOMETRIC LAPTOP -->
+  <g>
+    <!-- base (keyboard deck) -->
+    <polygon points="90,225 250,185 410,225 250,265" fill="#161f2a" stroke="#2a3947" stroke-width="1.5"/>
+    <polygon points="90,225 90,235 250,275 250,265" fill="#0e141c" stroke="#2a3947" stroke-width="1"/>
+    <polygon points="250,265 250,275 410,235 410,225" fill="#121a24" stroke="#2a3947" stroke-width="1"/>
+    <!-- keyboard hint lines -->
+    <g stroke="#2a3947" stroke-width="1">
+      <line x1="140" y1="222" x2="280" y2="187"/>
+      <line x1="155" y1="230" x2="295" y2="195"/>
+      <line x1="170" y1="238" x2="310" y2="203"/>
+      <line x1="185" y1="246" x2="325" y2="211"/>
+    </g>
+    <!-- screen (tilted back) -->
+    <polygon points="120,205 120,70 320,20 320,155" fill="#161f2a" stroke="#2a3947" stroke-width="1.5"/>
+    <polygon points="130,196 130,78 310,33 310,146" fill="url(#screenglow)"/>
+    <!-- screen flicker on -->
+    <polygon points="130,196 130,78 310,33 310,146" fill="#00FF9C" opacity="0">
+      <animate attributeName="opacity" values="0;0.25;0;0.15;0;0.06;0" dur="1.2s" begin="0.3s" fill="freeze"/>
+    </polygon>
+
+    <!-- terminal lines typing on screen (staggered reveal) -->
+    <g font-size="11" fill="#00FF9C">
+      <text x="140" y="95" transform="rotate(-14 140 95)" opacity="0">
+        &gt; boot deniz.os
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="1.5s" fill="freeze"/>
+      </text>
+      <text x="140" y="113" transform="rotate(-14 140 113)" opacity="0">
+        &gt; loading: AI · creative code
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="2.3s" fill="freeze"/>
+      </text>
+      <text x="140" y="131" transform="rotate(-14 140 131)" opacity="0">
+        &gt; loading: game dev · UX
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.1s" fill="freeze"/>
+      </text>
+      <text x="140" y="149" transform="rotate(-14 140 149)" opacity="0">
+        &gt; status: READY █
+        <animate attributeName="opacity" from="0" to="1" dur="0.1s" begin="3.9s" fill="freeze"/>
+      </text>
+    </g>
+
+    <!-- blinking cursor before boot -->
+    <rect x="142" y="86" width="7" height="11" fill="#00FF9C" transform="rotate(-14 142 86)">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" begin="0s" repeatCount="2"/>
+      <animate attributeName="opacity" to="0" begin="1.5s" dur="0.01s" fill="freeze"/>
+    </rect>
+  </g>
+
+  <!-- NAME + TITLE -->
+  <g text-anchor="start">
+    <text x="470" y="120" font-size="42" font-weight="bold" fill="#e6edf3" letter-spacing="2" opacity="0">
+      DENIZ ARSLAN
+      <animate attributeName="opacity" values="0;1;0.4;1" dur="0.8s" begin="1s" fill="freeze"/>
+    </text>
+    <text x="472" y="152" font-size="15" fill="#00FF9C" letter-spacing="4" opacity="0">
+      COMPUTER SCIENTIST
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.8s" fill="freeze"/>
+    </text>
+    <!-- animated underline -->
+    <rect x="472" y="166" width="0" height="2" fill="#00FF9C">
+      <animate attributeName="width" from="0" to="300" dur="1s" begin="2.2s" fill="freeze"/>
+    </rect>
+    <text x="472" y="196" font-size="13" fill="#8b949e" opacity="0">
+      AI · Creative Coding · Game Dev · UX
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="2.8s" fill="freeze"/>
+    </text>
+    <text x="472" y="222" font-size="12" fill="#4d5866" opacity="0">
+      &gt; currently building things worth exploring_
+      <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="3.4s" fill="freeze"/>
+    </text>
+    <!-- forever-blinking cursor at the end -->
+    <rect x="762" y="212" width="7" height="12" fill="#00FF9C" opacity="0">
+      <animate attributeName="opacity" values="0;0" dur="0.1s" begin="0s" fill="freeze"/>
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" begin="3.6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
