@@ -8,7 +8,7 @@
   <a href="https://linkedin.com/in/deniz-arslan2022">
     <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="mailto:youremail@example.com">
+  <a href="mailto:denizarsln2022@gmail.com">
     <img src="https://img.shields.io/badge/Email-Say%20hi-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"/>
   </a>
   <img src="https://img.shields.io/badge/Based%20in-Leeds%2C%20UK-2c5364?style=for-the-badge&logo=googlemaps&logoColor=00FF9C"/>
@@ -35,7 +35,7 @@ deniz@github:~$ ./status --now
 ## ⚡ Tech Arsenal
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,cs,cpp,haskell,react,nodejs,threejs,vite,pytorch,sklearn,git,linux,docker,aws&perline=8" alt="Tech stack"/>
+  <img src="https://skillicons.dev/icons?i=python,js,ts,cs,cpp,haskell,react,nodejs,threejs,vite,pytorch,sklearn,git,aws&perline=8" alt="Tech stack"/>
 </div>
 
 ---
