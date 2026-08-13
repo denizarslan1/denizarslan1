@@ -11,7 +11,6 @@
   <a href="mailto:denizarsln2022@gmail.com">
     <img src="https://img.shields.io/badge/Email-Say%20hi-00FF9C?style=for-the-badge&logo=gmail&logoColor=black"/>
   </a>
-  <img src="https://img.shields.io/badge/Based%20in-Leeds%2C%20UK-2c5364?style=for-the-badge&logo=googlemaps&logoColor=00FF9C"/>
   <img src="https://komarev.com/ghpvc/?username=denizarslan1&style=for-the-badge&color=00FF9C&label=PROFILE+VIEWS"/>
 </div>
 
