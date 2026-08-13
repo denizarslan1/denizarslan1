@@ -1,6 +1,6 @@
 <!-- CUSTOM ANIMATED BANNER — hand-built SVG, boots up on every visit -->
 <div align="center">
-  <img src="assets/boot-sequence.svg" width="100%" alt="Deniz Arslan — boot sequence"/>
+  <img src="boot-sequence.svg" width="100%" alt="Deniz Arslan — boot sequence"/>
 </div>
 
 <!-- BADGES / SOCIALS -->
