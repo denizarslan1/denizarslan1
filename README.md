@@ -51,19 +51,6 @@ Things I'm building or plotting this season:
 
 ---
 
-## 📊 Stats That Update Themselves
-
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=denizarslan1&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF9C&icon_color=00FF9C&text_color=c9d1d9"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=denizarslan1&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00FF9C&text_color=c9d1d9"/>
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=denizarslan1&theme=tokyonight&hide_border=true&background=0d1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C"/>
-</div>
-
----
-
 ## 🐍 Contribution Graph, But Alive
 
 <div align="center">
